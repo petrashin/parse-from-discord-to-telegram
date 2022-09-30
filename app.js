@@ -11,7 +11,8 @@ const gateway = new selfcore.Gateway(token)
 gateway.on("message", m => {
     if(m.channel_id === channel_id) {
         let content = m.content ? m.content : { emdebs: [m.embeds[0]] };
-        // TODO: starting .py script that will parse content info and open order
+        // TODO: send to tg chat via bot
+        // TODO: bot send to private channel
         console.log(content)
     }
 })

@@ -1,4 +1,4 @@
-# parse_discord_and_open_order
+# parse-from-discord-to-telegram
 
 ## Running Locally
 

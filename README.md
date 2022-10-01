@@ -11,7 +11,7 @@ $ npm install
 ```
 Create .env file as env.example where:
 - auth_token is your [discord auth token](https://www.androidauthority.com/get-discord-token-3149920/)
-- channel_id is channel id from which you will forward the message
+- channel_id is discord channel id from which you will forward the messages
 - bot_token is your telegram bot token that you can get [here](https://t.me/BotFather)
 - chat_id is your channel id with -100 prefix [info](https://stackoverflow.com/a/56546442)
 

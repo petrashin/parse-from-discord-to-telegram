@@ -15,9 +15,7 @@ Create .env file as env.example where:
 - bot_token is your telegram bot token that you can get [here](https://t.me/BotFather)
 - chat_id is your channel id with -100 prefix [info](https://stackoverflow.com/a/56546442)
 
-Add created telegram bot to your channel
-
-Run
+Add created telegram bot to your channel.
 
 ```sh
 $ node app.js

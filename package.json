@@ -13,6 +13,7 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "node-binance-api": "^0.13.1",
+    "node-telegram-bot-api": "^0.59.0",
     "selfcore": "^1.1.1"
   }
 }

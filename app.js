@@ -16,6 +16,6 @@ gateway.on("message", m => {
     if(m.channel_id === channel_id) {
         let content = m.content ? m.content : { emdebs: [m.embeds[0]] };
         console.log(content)
-        bot.sendMessage(chat_id, content)
+        bot.sendMessage('-100' + chat_id, content)
     }
 })
